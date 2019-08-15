@@ -7,11 +7,3 @@ def countdown(seconds)
 end
 end
 
-
-
-def countdown_with_sleep(count)
-  count = 5
-  while count > 0
-  puts " #{count} SECONDS"
-  sleep 1
-end
