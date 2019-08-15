@@ -1,5 +1,5 @@
-def countdown(counter)
-  counter = 5
+def countdown(seconds)
+  seconds = 5
   while counter > 0
   puts "#{counter} SECONDS"
   counter -= 1
